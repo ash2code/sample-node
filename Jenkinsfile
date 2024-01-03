@@ -1,5 +1,5 @@
 pipeline {
-    aganet any 
+    agent any 
 
     stages {
         stage('check-out') {
@@ -25,8 +25,11 @@ pipeline {
         }
     }
     post {
-        always {
-            echo 'build is completed'
+        success {
+            echo "job completed"
+        }
+        failure {
+            echo 'job failed'
         }
     }
 }
