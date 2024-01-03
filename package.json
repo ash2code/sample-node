@@ -4,7 +4,7 @@
   "description": "",
   "main": "sample-node.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage" // Assuming you are using Jest for testing
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ash2code/sample-node/issues"
   },
-  "homepage": "https://github.com/ash2code/sample-node#readme"
+  "homepage": "https://github.com/ash2code/sample-node#readme",
+  "devDependencies": {
+    "jest": "^27.0.6" // Ensure Jest is installed as a development dependency
+  }
 }
