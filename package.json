@@ -4,7 +4,7 @@
   "description": "",
   "main": "sample-node.js",
   "scripts": {
-    "test": "jest --coverage" // Assuming you are using Jest for testing
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/ash2code/sample-node#readme",
   "devDependencies": {
-    "jest": "^27.0.6" // Ensure Jest is installed as a development dependency
+    "jest": "^27.0.6"
   }
 }
