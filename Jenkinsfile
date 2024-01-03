@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('check-out') {
             steps {
-                git url: 'https://github.com/ash2code/sample-node.git'
+                git branch: 'main',
+                    url: 'https://github.com/ash2code/sample-node.git'
             }
 
         }
